@@ -4,7 +4,7 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <head>
-<title>Welcome to H&M</title>
+<title>Welcome to Site</title>
 <script>
 var app = angular.module("myApp", []);
 </script>
