@@ -1,3 +1,5 @@
+Hej alla,
+
 Requirement:
 As per the understanding from the requirement a web gui is required where a user can input any random number and the following set of results are excepted:
 1) Gui should display the numbers entered in sorted order(ascending)
@@ -24,4 +26,6 @@ How to make the application up:
 6) After desired set of entries restart the application.
 7) Open the browser and type url localhost:8080 and press enter
 8) The last result i.e. the sorted number list, time taken to sort and number of re-arrangements will be shown on gui. Here to make it light i am storing the result data in a property file i.e. data.properties, we can store it in other storage mediums also like DB etc.
+
+Tack och Hälsningar
 
