@@ -56,6 +56,7 @@ public class NumberController {
 			errorMsg = e.getMessage();
 		} finally {
 			try {
+				if(is != null)
 				is.close();
 			} catch (IOException io) {
 				errorMsg = io.getMessage();
@@ -117,6 +118,7 @@ public class NumberController {
 				timeTakentoSort = 0l;
 				iNumberofPosChange = 0;
 				try {
+					if(out != null)
 					out.close();
 				} catch (IOException e) {
 					errorMsg = e.getMessage();
