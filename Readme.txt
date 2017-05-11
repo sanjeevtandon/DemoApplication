@@ -15,7 +15,7 @@ Technologies used to complete this requirement:
 5) Spring Boot 1.4.2
 6) Maven
 
-How to make the application up:
+How to make the application up and test:
 1) After running maven build install, spring-boot-web-jsp-1.0.jar will be created in the target folder, uploading the jar also, but it should not be the part of maven build and install.
 2) Execute command java -jar ./spring-boot-web-jsp-1.0.jar, if port is already in use then run command 'netstat -ano' and after that to terminate process at 8080 port 'taskkill -pid <pid> /f', or change port of application by overriding the property 'server.port=<new port number>' in application.properties
 3) Open the browser and type url localhost:8080 and press enter
