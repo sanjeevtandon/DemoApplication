@@ -1,6 +1,6 @@
 Hej alla,
 
-Requirement:
+Requirement Understanding:
 As per the understanding from the requirement a web gui is required where a user can input any random number and the following set of results are excepted:
 1) Gui should display the numbers entered in sorted order(ascending)
 2) Gui should display the time taken to sort the numbers
@@ -15,7 +15,7 @@ Technologies used to complete this requirement:
 5) Spring Boot 1.4.2
 6) Maven
 
-How to make the application up and test:
+How to setup the application and test:
 1) After running maven build install, spring-boot-web-jsp-1.0.jar will be created in the target folder, uploading the jar also, but it should not be the part of maven build and install.
 2) Execute command java -jar ./spring-boot-web-jsp-1.0.jar, if port is already in use then run command 'netstat -ano' and after that to terminate process at 8080 port 'taskkill -pid <pid> /f', or change port of application by overriding the property 'server.port=<new port number>' in application.properties
 3) Open the browser and type url localhost:8080 and press enter
@@ -26,7 +26,7 @@ How to make the application up and test:
 	c) Sorted Number List.
 6) After desired set of entries restart the application.
 7) Open the browser and type url localhost:8080 and press enter
-8) The last result i.e. the sorted number list, time taken to sort and number of re-arrangements will be shown on gui. Here to make it light i am storing the result data in a property file i.e. data.properties, we can store it in other storage mediums also like DB etc.
+8) The last result i.e. the sorted number list, time taken to sort and number of re-arrangements will be shown on gui. Here to make it light weight i am storing the result data in a property file i.e. data.properties, we can store it in other storage mediums also like DB etc.
 
 Tack och Hälsningar
 
