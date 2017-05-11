@@ -14,6 +14,7 @@ Technologies used to complete this requirement
 6) Maven
 
 How to make the application up
+After running maven build install, spring-boot-web-jsp-1.0.jar will be created in the target folder
 1) java -jar ./spring-boot-web-jsp-1.0.jar, if port is already in use then run command 'netstat -ano' and after that to terminate process at 8080 port 'taskkill -pid <pid> /f', or change port of application by overriding the property 'server.port=<new port number>' in application.properties
 2) open the browser and type url localhost:8080 and press enter
 3) in the text box provided enter the number user want to sort, and press 'Add Number' button.
