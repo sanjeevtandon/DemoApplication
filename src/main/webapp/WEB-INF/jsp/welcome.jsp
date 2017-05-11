@@ -45,7 +45,7 @@ background-color:#b0cdfc;
 				<td><input type="submit" name="save" value="Add Number" /></td>
 			</tr>
 			<tr>
-				<td colspan=2><b>Time taken for the sorting is </b></td>
+				<td colspan=2><b>Time taken for the sorting is(in nanoseconds) </b></td>
 				<td>${timeTaken}</td>
 			</tr>
 			<tr>
