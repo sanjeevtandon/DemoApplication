@@ -16,12 +16,12 @@ Technologies used to complete this requirement:
 6) Maven
 
 How to setup the application and test:
-1) After running maven build install, spring-boot-web-jsp-1.0.jar will be created in the target folder, uploading the generated jar also, but it should not be the part of maven build and install.
-2) Execute command java -jar ./spring-boot-web-jsp-1.0.jar, if port is already in use then run command 'netstat -ano' and after that to terminate process at 8080 port 'taskkill -pid <pid> /f', or change port of application by overriding the property 'server.port=<new port number>' in application.properties
+1) After running maven build install, spring-boot-web-jsp-1.0.war will be created in the target folder, uploading the generated war also, but it should not be the part of maven build and install.
+2) Execute command java -jar target/spring-boot-web-jsp-1.0.war, if port is already in use then run command 'netstat -ano' and after that to terminate process at 8080 port 'taskkill -pid <pid> /f', or change port of application by overriding the property 'server.port=<new port number>' in application.properties
 3) Open the browser and type url localhost:8080 and press enter
 4) In the text box provided enter the number user want to sort, and press 'Add Number' button.
 5) Following result will be displayed:
-	a) Time taken to sort the numbers in milliseconds.
+	a) Time taken to sort the numbers in nanoseconds.
 	b) Number of re-arrangements happened, if new number is added which is assumed to be at the end of the sorted number list then it should return 0, because this number is new and no re-arragmenents are done as compared to previous result, if new number is assumed to be in between existing numbers list or at the top then result should be greater than 0.
 	c) Sorted Number List.
 6) After desired set of entries restart the application.
