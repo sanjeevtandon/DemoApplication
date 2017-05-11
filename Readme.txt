@@ -23,6 +23,7 @@ How to make the application up:
 5) Following result will be displayed:
 	a) Time taken to sort the numbers in milliseconds.
 	b) Number of re-arrangements happened, if new number is added which is assumed to be at the end of the sorted number list then it should return 0, because this number is new and no re-arragmenents are done as compared to previous result, if new number is assumed to be in between existing numbers list or at the top then result should be greater than 0.
+	c) Sorted Number List.
 6) After desired set of entries restart the application.
 7) Open the browser and type url localhost:8080 and press enter
 8) The last result i.e. the sorted number list, time taken to sort and number of re-arrangements will be shown on gui. Here to make it light i am storing the result data in a property file i.e. data.properties, we can store it in other storage mediums also like DB etc.
