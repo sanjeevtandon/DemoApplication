@@ -37,7 +37,7 @@ timetakentosort=71253
 numbers=2;12;34;45;654
 numberofposchange=1
 
-9) Exception handling: 
+9) Exception handling and validations: 
 	a) Server Side: If there is any exception at the time of processing then that exception is catched and exception's message will be send back to web gui and shown on the screen by applying red color css.
 	b) Client Side: Only number is allowed in the text box and its mandatory.
 
