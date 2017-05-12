@@ -27,7 +27,7 @@ How to setup the application and test:
 	Logic behind the result: Here first the existing data is stored in an arraylist and after that new arraylist(old data + new added number) gets sorted with treeset, now the old and new arraylist(sorted) is compared for data at each position, if data doesn't match at that position it means re-arrangement happened, and the count of re-arrangement is calculated.
 	c) Sorted Number List: 
 	Logic behind the result: Treeset has been used to sort the data.
-	d) If there is no exception then success message i.e. 'Added Successfully...' is shown on the screenby applying green color css.
+	d) If there is no exception then success message i.e. 'Added Successfully...' is shown on the screen by applying green color css.
 6) After desired set of entries restart the application.
 7) Open the browser and type url localhost:8080 and press enter
 8) The last result i.e. the sorted number list, time taken to sort and number of re-arrangements will be shown on gui. Here to make it light weight i am storing the result data in a property file i.e. data.properties, we can store it in other storage mediums also like DB etc. Once the user type the url in browser and presses enter the data.properties file will gets created(if does not exist) in the folder where .war is present. Please use the login credentials which has rights to create and edit files.
