@@ -1,4 +1,4 @@
-Hej alla,
+Hej Alla,
 
 Requirement Understanding:
 As per the understanding from the requirement a web gui is required where a user can input any random number and the following set of results are excepted:
